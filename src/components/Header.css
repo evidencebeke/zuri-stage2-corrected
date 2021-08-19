@@ -1,6 +1,9 @@
 .header-wrapper {
   position: relative;
+  background-repeat: no-repeat;
   height: 90vh;
+  position: relative;
+  top: 70px;
 }
 .main-info {
   display: flex;
