@@ -1,0 +1,14 @@
+.contact-image {
+  height: 40px;
+
+  object-fit: cont;
+  display: block;
+  margin-bottom: 50px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.contact {
+  padding: 40px;
+  text-align: center;
+  color: white;
+}

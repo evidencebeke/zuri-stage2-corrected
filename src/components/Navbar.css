@@ -1,0 +1,33 @@
+.logo {
+  width: 15rem;
+}
+.nav-link {
+  font-weight: 500;
+  letter-spacing: 0.0375;
+  cursor: pointer;
+  text-transform: uppercase;
+  color: rgb(240, 230, 230) !important;
+  border-top: 3px solid rgba(255, 255, 255, 0);
+}
+.nav-brand {
+  max-width: 17.25rem;
+  padding: 0;
+  height: 6rem !important;
+}
+/* .nav-link.active,
+.nav-link.active:focus {
+  border-top: 3px solid blue;
+} */
+.navbar-nav > li > a.active,
+.navbar-nav > li > a:focus,
+.navbar-nav > li > a:hover {
+  border-bottom: 3px solid white;
+}
+@media (max-width: 768px) {
+  .logo {
+    width: 150px;
+  }
+  .nav-brand {
+    width: 100px;
+  }
+}
