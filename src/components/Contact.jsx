@@ -19,7 +19,11 @@ const Contact = () => {
       <h3>Contact Me</h3>
       {contacts.map((contact, i) => (
         <a key={i} href={contact.url}>
-          <img className="contact-image" src={contact.picture} />
+          <img
+            className="contact-image"
+            src={contact.picture}
+            alt={contact.name}
+          />
         </a>
       ))}
       <img src="" alt="" />
