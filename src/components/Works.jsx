@@ -8,13 +8,13 @@ const Works = () => {
   const myWorks = [
     {
       title: "Amazon Clone",
-      link: "amazoncloned.netlify.app",
+      link: "https://amazoncloned.netlify.app",
       shot: amazon,
       des: "I built a partially functional Amazon Clone from scratch",
     },
     {
       title: "Netflix Clone",
-      link: "myowflix.netlify.app",
+      link: "https://myowflix.netlify.app",
       shot: netflix,
       des: "I built a beautiful imitation of the netflix homepage",
     },
