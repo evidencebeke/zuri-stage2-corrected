@@ -23,7 +23,10 @@ const Header = () => {
               "I write in HTML",
               "I write CSS",
               "I write in JavaScript",
+              "I write in Python",
               "I use React JS",
+              "I use Django"
+              "I use Rest Framework"
             ]}
             typeSpeed={40}
             backSpeed={60}
